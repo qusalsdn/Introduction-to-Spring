@@ -10,7 +10,7 @@ public interface MemberReoisitory {
 
     Optional<Member> findById(Long id);
 
-    Optional<Member> String(String name);
+    Optional<Member> findByName(String name);
 
     List<Member> findAll();
 }
